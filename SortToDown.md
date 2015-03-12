@@ -1,15 +1,21 @@
-package MyPrograms;
+/**
+ * Created by Дима on 12.03.2015.
+ */
+
+
+/* Задача по алгоритмам
+Задача: Написать программу, которая вводит с клавиатуры 20 чисел и выводит их в убывающем порядке.
+*/
+
+
+
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/**
- * Created by Дима on 12.03.2015.
- */
+
 public class SortNumb {
-/* Задача по алгоритмам
-Задача: Написать программу, которая вводит с клавиатуры 20 чисел и выводит их в убывающем порядке.
-*/
+
         public static void main(String[] args) throws Exception
         {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
